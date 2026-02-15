@@ -1,0 +1,28 @@
+.result-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.result-container h1 {
+  font-size: 32px;
+}
+
+.result-container h2 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.result-container h3 {
+  font-size: 24px;
+  color: #007bff;
+}
+
+.result-container button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+}

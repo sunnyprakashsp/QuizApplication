@@ -1,0 +1,120 @@
+/* Background */
+.parent {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4d47c3, #6c63ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Card */
+.login-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 20px;
+  display: flex;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* LEFT */
+.left {
+  width: 60%;
+  display: flex;
+  gap: 30px;
+}
+
+.column-1 {
+  flex: 1;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+.span {
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.text {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #4d47c3;
+}
+
+.Paragraphs {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.div-2 a {
+  color: #4d47c3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Image */
+.column-2 {
+  width: 40%;
+}
+
+.img {
+  max-width: 100%;
+}
+
+/* RIGHT */
+.right {
+  width: 40%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div-3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input {
+  background-color: #f5f6ff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 2px #6c63ff;
+}
+
+/* Button */
+.login {
+  background: linear-gradient(135deg, #4d47c3, #6c63ff);
+  color: white;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(77, 71, 195, 0.4);
+}

@@ -1,0 +1,11 @@
+isil\java_quiz_server\modal\Question.class
+isil\java_quiz_server\controller\UserController.class
+isil\java_quiz_server\service\LoginService.class
+isil\java_quiz_server\controller\QuizController.class
+isil\java_quiz_server\JavaQuizServerApplication.class
+isil\java_quiz_server\requests\LoginRequest.class
+isil\java_quiz_server\response\LoginResponse.class
+isil\java_quiz_server\repository\UserRepository.class
+isil\java_quiz_server\repository\QuizRepository.class
+isil\java_quiz_server\modal\Quiz.class
+isil\java_quiz_server\modal\User.class
